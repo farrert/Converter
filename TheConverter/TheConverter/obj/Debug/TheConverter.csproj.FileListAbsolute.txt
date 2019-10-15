@@ -1,0 +1,16 @@
+Q:\TheConverter\TheConverter\bin\Debug\TheConverter.exe.config
+Q:\TheConverter\TheConverter\bin\Debug\TheConverter.exe
+Q:\TheConverter\TheConverter\bin\Debug\TheConverter.pdb
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.csprojAssemblyReference.cache
+Q:\TheConverter\TheConverter\obj\Debug\Views\UnitConverterView.g.cs
+Q:\TheConverter\TheConverter\obj\Debug\App.g.cs
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter_MarkupCompile.cache
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter_MarkupCompile.lref
+Q:\TheConverter\TheConverter\obj\Debug\Views\UnitConverterView.baml
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.g.resources
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.Properties.Resources.resources
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.csproj.GenerateResource.cache
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.csproj.CoreCompileInputs.cache
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.exe
+Q:\TheConverter\TheConverter\obj\Debug\TheConverter.pdb
+Q:\TheConverter\TheConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs

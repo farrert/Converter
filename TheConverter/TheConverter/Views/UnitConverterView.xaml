@@ -1,0 +1,71 @@
+﻿<Window x:Class="TheConverter.Views.UnitConverterView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheConverter.Views"
+        xmlns:viewModels="clr-namespace:TheConverter.ViewModels"
+        mc:Ignorable="d"
+        Title="UnitConverterView" Height="450" Width="800">
+    <Window.DataContext>
+        <viewModels:UnitConverterViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel 
+            Orientation="Vertical"
+            Margin="20"
+            HorizontalAlignment="Center">
+         <Label
+                HorizontalAlignment="Center"
+                Content="The Converter"
+                FontSize="24"/>
+
+            <StackPanel
+            Orientation="Horizontal">
+                <TextBox
+                Width="100"
+                Height="30"
+                Margin="20"
+                HorizontalContentAlignment="Right"
+                Text="{Binding Opperand}" 
+                    />
+                <ComboBox
+                Width="100"
+                Height="30"
+                Margin="20"
+                ItemsSource="{Binding Units}"
+                SelectedItem="{Binding OpperandUnit, Mode=TwoWay}">
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel
+            Orientation="Horizontal">
+            <TextBox
+                Width="100"
+                Height="30"
+                Margin="20"
+                HorizontalContentAlignment="Right"
+                Text="{Binding Result}"
+                />
+            <ComboBox
+                Width="100"
+                Height="30"
+                Margin="20"
+                ItemsSource="{Binding Units}"
+                SelectedItem="{Binding ResultUnit, Mode=TwoWay}">
+            </ComboBox>
+                </StackPanel>
+        
+        <Button
+                Content="Convert"
+                Height="100"
+                Width="50"
+                Command="{Binding ButtonConvertCommand}"
+                CommandParameter="Convert"/>
+
+                    </StackPanel>
+
+
+
+    </Grid>
+</Window>
